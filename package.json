@@ -1,0 +1,21 @@
+{
+  "name": "test-monaco-fs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "monaco-editor": "^0.52.2",
+    "vue":"^3.5.13",
+    "@volar/jsdelivr": "^2.4.11",
+    "@volar/monaco": "^2.4.11",
+    "@vue/language-service": "^2.2.0",
+    "vscode-uri":"^3.0.8"
+  }
+}
